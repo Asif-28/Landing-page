@@ -1,4 +1,4 @@
 import { Hero } from "./Hero";
-import Premium  from "./Premium";
+import { Premium } from "./Premium";
 
 export { Hero , Premium};

@@ -1,10 +1,9 @@
-"use client";
-
 import Image from "next/image";
 
-const Premium = () => {
+export const Premium = () => {
   return (
-    <div className="section"> <div className="flex flex-col lg:flex-row items-center flex-wrap my-5">
+    <div className="section"> 
+    <div className="flex flex-col lg:flex-row items-center flex-wrap my-5">
     <div className="lg:w-1/2 flex flex-col items-center space-y-4 max-md:w-full z-10">
       <Image
         src="/images/phone_premium.svg"
@@ -12,11 +11,10 @@ const Premium = () => {
         width={550}
         height={550}
         className=""
-        id="second_section_a"
       />
     </div>
 
-    <div className="lg:w-1/2 text-left z-10 max-lg:p-5" id="second_section_a">
+    <div className="lg:w-1/2 text-left z-10 max-lg:p-5" id="">
       <p className="flex font-regular text-md mb-4 text-red-500">Features</p>
       <h1 className="text-4xl font-bold flex flex-wrap mb-8">
         UiFry Premium
@@ -77,14 +75,13 @@ const Premium = () => {
         </p>
       </div>
     </div>
-
+<div></div>
     <Image
       src="/images/gradientmix.svg"
       alt="hero"
       width={600}
       height={600}
       className="absolute "
-      id="second_section_a"
     />
     <Image
       src="/images/gradientmix.svg"
@@ -92,7 +89,6 @@ const Premium = () => {
       width={400}
       height={400}
       className="absolute  -right-52 max-lg:hidden"
-      id="second_section_a"
     />
     <Image
       src="/images/star-1.png"
@@ -100,10 +96,9 @@ const Premium = () => {
       width={40}
       height={40}
       className="absolute lg:left-16 max-lg:hidden"
-      id="second_section_a"
     />
-  </div></div>
+  </div>
+  </div>
    
   );
 };
-export default Premium;
