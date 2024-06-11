@@ -33,7 +33,7 @@ export const Hero: React.FC = () => {
           </p>
           <div className="flex items-center gap-8 pt-8 cursor-pointer ">
             <div className="w-auto">
-              <button className="text-base text-white rounded-md bg-[#000000] px-12 py-4 hover:bg-[#FF5555] ">
+              <button className="text-base text-white rounded-md bg-[#000000] px-7 py-3 md:px-12 md:py-4 hover:bg-[#FF5555] ">
                 Get Started
               </button>
             </div>
