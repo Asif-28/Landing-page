@@ -55,7 +55,7 @@ export const Header: React.FC = () => {
             </li>
           </ul>
         </nav>
-        <button className="text-base text-white rounded-md bg-[#000000] px-8 py-3 sm:px-12 sm:py-4 hover:text-[#FF5555]">
+        <button className="text-base text-white rounded-md bg-[#000000] px-8 py-3 sm:px-12 sm:py-4 hover:bg-[#FF5555]">
           Download
         </button>
       </div>

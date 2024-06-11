@@ -1,10 +1,8 @@
-import Premium from "@/components/LandingPage/Premium";
-import { Hero } from "../components/LandingPage/index";
-import Header from "@/components/Header";
+import { Hero, Premium } from "../components/LandingPage/index";
 export default function Home() {
   return (
     <main className="section">
-      <Hero />{" "}
+      <Hero />
       <Premium/>
     </main>
   );
