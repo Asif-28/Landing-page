@@ -6,17 +6,24 @@ export const Hero: React.FC = () => {
   return (
     <div className="md:flex md:flex-row flex-col px-3 md:px-5 lg:px-0  ">
       <div className="relative lg:w-[50%] mt-10 md:mt-32">
-        <div className="absolute -top-28 md:-top-40 -right-10 md:right-20 -z-10">
+        <div className="absolute -top-28 md:-top-40  md:right-20 -z-10 ">
           <Image
-            className=" "
+            className=" hidden md:block -rotate-180 backdrop:blur-sm"
             src="/images/Gradient1.png"
             alt="Gradient"
             width={500}
             height={600}
           />
+               <Image
+            className=" md:hidden "
+            src="/images/Gradient1.png"
+            alt="Gradient"
+            width={350}
+            height={600}
+          />
         </div>
 
-        <div className=" z-50">
+        <div className=" z-50 ">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold">
             Make The Best Financial Decisions
           </h1>
@@ -42,9 +49,17 @@ export const Hero: React.FC = () => {
           </div>
           <div className="py-16">
             <Image
+            className="hidden md:block"
               src={`/images/hero1.png`}
               height={500}
               width={500}
+              alt="banner"
+            />
+              <Image
+              className="md:hidden"
+              src={`/images/hero1.png`}
+              height={400}
+              width={300}
               alt="banner"
             />
           </div>
