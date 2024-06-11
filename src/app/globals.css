@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  /* overflow: hidden; */
+}
+
+.header {
+  @apply max-w-6xl mx-auto;
+}
+.section {
+  @apply max-w-7xl mx-auto;
 }
