@@ -34,10 +34,10 @@ const Phone = () => {
           width={600}
         />
         <Image
-          className="absolute -bottom-16 right-48 z-0 backdrop:blur-md"
+          className="absolute -bottom-32 right-1 z-0 backdrop:blur-md"
           src="/images/Gradient1.png"
           alt="Gradient"
-          width={300}
+          width={800}
           height={300}
         />
       </div>
